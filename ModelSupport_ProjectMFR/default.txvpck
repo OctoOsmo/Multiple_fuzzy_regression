@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="8v6r85dzlv1dlgpfk_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="cpp:e_class:src:ProjectMFR:TForm1">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_field:src:ProjectMFR:TForm1.StringGrid2" />
+      <reference referencedUin="cpp:e_field:src:ProjectMFR:TForm1.Button1" />
+      <reference referencedUin="cpp:e_field:src:ProjectMFR:TForm1.StringGrid1" />
+      <reference referencedUin="cpp:e_method:src:ProjectMFR:TForm1.TForm1(::System::Classes::TComponent*)" />
+      <reference referencedUin="cpp:e_method:src:ProjectMFR:TForm1.Button1Click(::System::TObject*)" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:ProjectMFR:MatrixOperations">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="cpp:e_method:src:ProjectMFR:MatrixOperations.PrintMatrix(::std::vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;&amp;!::Vcl::Grids::TStringGrid*)" />
+      <reference referencedUin="cpp:e_method:src:ProjectMFR:MatrixOperations.OpenMatrix(char*!::std::vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;&amp;)" />
+      <reference referencedUin="cpp:e_method:src:ProjectMFR:MatrixOperations.GaussJordan(::std::vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;&amp;)" />
+    </reference>
+    <reference referencedUin="design:view:::fhzg3ts65w39mcmvk_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="0,0,100,119" />
+      <reference referencedUin="cpp:e_class:src:ProjectMFR:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;" />
+      <reference referencedUin="cpp:e_class:src:ProjectMFR:std.vector&lt;double,allocator&lt;double&gt; &gt;" />
+    </reference>
+  </view>
+</nodeSet>

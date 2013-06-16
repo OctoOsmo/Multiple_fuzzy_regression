@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2013.06.14 14:11:35.305,=C:\Users\al\Documents\RAD Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2013.06.14 14:11:35.329,=C:\Users\al\Documents\RAD Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2013.06.14 14:14:53.552,C:\Users\al\Documents\GitHub\Multiple fuzzy regression\MFR.h=C:\Users\al\Documents\RAD Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2013.06.14 14:15:05.385,C:\Users\al\Documents\GitHub\Multiple fuzzy regression\MainUnit.dfm=C:\Users\al\Documents\RAD Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2013.06.14 14:15:05.385,C:\Users\al\Documents\GitHub\Multiple fuzzy regression\MainUnit.cpp=C:\Users\al\Documents\RAD Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2013.06.14 14:15:05.385,C:\Users\al\Documents\GitHub\Multiple fuzzy regression\MainUnit.h=C:\Users\al\Documents\RAD Studio\Projects\Unit1.h</Transaction>
+    <Transaction>2013.06.14 14:16:30.606,C:\Users\al\Documents\GitHub\Multiple fuzzy regression\ProjectMFR.cbproj=C:\Users\al\Documents\RAD Studio\Projects\Project1.cbproj</Transaction>
+    <Transaction>2013.06.14 14:17:04.303,=C:\Users\al\Documents\GitHub\Multiple fuzzy regression\ModelSupport_ProjectMFR\default.txaPackage</Transaction>
+    <Transaction>2013.06.14 14:17:26.826,=C:\Users\al\Documents\GitHub\Multiple fuzzy regression\ModelSupport_ProjectMFR\default.txvpck</Transaction>
+    <Transaction>2013.06.14 14:19:42.667,=C:\Users\al\Documents\GitHub\Multiple fuzzy regression\Unit1.cpp</Transaction>
+    <Transaction>2013.06.14 14:25:48.583,C:\Users\al\Documents\GitHub\Multiple fuzzy regression\MatrixOperations.cpp=C:\Users\al\Documents\GitHub\Multiple fuzzy regression\Unit1.cpp</Transaction>
+    <Transaction>2013.06.14 14:25:48.583,C:\Users\al\Documents\GitHub\Multiple fuzzy regression\MatrixOperations.h=C:\Users\al\Documents\GitHub\Multiple fuzzy regression\Unit1.h</Transaction>
+    <Transaction>2013.06.16 06:00:39.170,=C:\Users\al\Documents\GitHub\Multiple fuzzy regression\ModelSupport_ProjectMFR\std\default.txaPackage</Transaction>
+    <Transaction>2013.06.16 06:01:22.654,=C:\Users\al\Documents\GitHub\Multiple fuzzy regression\ModelSupport_ProjectMFR\Activity Diagram1.txvact</Transaction>
+    <Transaction>2013.06.16 06:01:22.959,=C:\Users\al\Documents\GitHub\Multiple fuzzy regression\ModelSupport_ProjectMFR\std\default.txvpck</Transaction>
+    <Transaction>2013.06.16 06:02:33.525,=C:\Users\al\Documents\GitHub\Multiple fuzzy regression\Class1.cpp</Transaction>
+    <Transaction>2013.06.16 06:04:42.699,c:\users\al\documents\github\multiple fuzzy regression\class1.cpp=</Transaction>
+    <Transaction>2013.06.16 06:04:51.195,c:\users\al\documents\github\multiple fuzzy regression\modelsupport_projectmfr\activity diagram1.txvact=</Transaction>
+  </Transactions>
+  <ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="ModelSupport_ProjectMFR"/>
+    <File Path="ModelSupport_ProjectMFR\default.txaPackage"/>
+    <File Path="ModelSupport_ProjectMFR\default.txvpck"/>
+    <File Path="ModelSupport_ProjectMFR\std"/>
+    <File Path="ModelSupport_ProjectMFR\std\default.txaPackage"/>
+    <File Path="ModelSupport_ProjectMFR\std\default.txvpck"/>
+    <File Path="MainUnit.cpp"/>
+    <File Path="MainUnit.cpp"/>
+    <File Path="MainUnit.dfm"/>
+    <File Path="MainUnit.h"/>
+    <File Path="MatrixOperations.cpp"/>
+    <File Path="MatrixOperations.cpp"/>
+    <File Path="MatrixOperations.h"/>
+    <File Path="MFR.h"/>
+    <File Path="ProjectMFR.cpp"/>
+  </ProjectSortOrder>
+</BorlandProject>
