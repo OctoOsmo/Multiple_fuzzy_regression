@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{D3D8B299-DC3C-4B8B-BD10-8D0E9A2770E1}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="ProjectMFR.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="RUS\ProjectMFR_RUS.bdsproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="ProjectMFR">
+        <MSBuild Projects="ProjectMFR.cbproj"/>
+    </Target>
+    <Target Name="ProjectMFR:Clean">
+        <MSBuild Projects="ProjectMFR.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ProjectMFR:Make">
+        <MSBuild Projects="ProjectMFR.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="ProjectMFR_RUS">
+        <MSBuild Projects="RUS\ProjectMFR_RUS.bdsproj"/>
+    </Target>
+    <Target Name="ProjectMFR_RUS:Clean">
+        <MSBuild Projects="RUS\ProjectMFR_RUS.bdsproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ProjectMFR_RUS:Make">
+        <MSBuild Projects="RUS\ProjectMFR_RUS.bdsproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="ProjectMFR;ProjectMFR_RUS"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="ProjectMFR:Clean;ProjectMFR_RUS:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="ProjectMFR:Make;ProjectMFR_RUS:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

@@ -2,8 +2,8 @@ object Form1: TForm1
   Left = 0
   Top = 0
   Caption = 'Form1'
-  ClientHeight = 406
-  ClientWidth = 644
+  ClientHeight = 242
+  ClientWidth = 715
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -24,8 +24,8 @@ object Form1: TForm1
     TabOrder = 0
   end
   object Button1: TButton
-    Left = 408
-    Top = 248
+    Left = 184
+    Top = 176
     Width = 75
     Height = 25
     Caption = 'Button1'
@@ -33,7 +33,7 @@ object Form1: TForm1
     OnClick = Button1Click
   end
   object StringGrid2: TStringGrid
-    Left = 200
+    Left = 159
     Top = 8
     Width = 137
     Height = 137
@@ -43,7 +43,7 @@ object Form1: TForm1
     TabOrder = 2
   end
   object StringGrid3: TStringGrid
-    Left = 383
+    Left = 311
     Top = 8
     Width = 137
     Height = 137
@@ -53,23 +53,13 @@ object Form1: TForm1
     TabOrder = 3
   end
   object StringGrid4: TStringGrid
-    Left = 8
-    Top = 200
+    Left = 463
+    Top = 8
     Width = 137
     Height = 137
     DefaultColWidth = 24
     FixedCols = 0
     FixedRows = 0
     TabOrder = 4
-  end
-  object StringGrid5: TStringGrid
-    Left = 200
-    Top = 200
-    Width = 137
-    Height = 137
-    DefaultColWidth = 24
-    FixedCols = 0
-    FixedRows = 0
-    TabOrder = 5
   end
 end

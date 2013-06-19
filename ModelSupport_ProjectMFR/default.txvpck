@@ -17,12 +17,36 @@
       <reference referencedUin="cpp:e_method:src:ProjectMFR:MatrixOperations.PrintMatrix(::std::vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;&amp;!::Vcl::Grids::TStringGrid*)" />
       <reference referencedUin="cpp:e_method:src:ProjectMFR:MatrixOperations.OpenMatrix(char*!::std::vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;&amp;)" />
       <reference referencedUin="cpp:e_method:src:ProjectMFR:MatrixOperations.GaussJordan(::std::vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;&amp;)" />
+      <reference referencedUin="cpp:e_method:src:ProjectMFR:MatrixOperations.MatrixMultiplication(::std::vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;&amp;!::std::vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;&amp;)" />
+      <reference referencedUin="cpp:e_method:src:ProjectMFR:MatrixOperations.CreateIdentityMatrix(int)" />
+      <reference referencedUin="cpp:e_method:src:ProjectMFR:MatrixOperations.GaussJordan(::std::vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;&amp;!::std::vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;&amp;)" />
+      <reference referencedUin="cpp:e_method:src:ProjectMFR:MatrixOperations.Transp(::std::vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;&amp;)" />
     </reference>
     <reference referencedUin="design:view:::fhzg3ts65w39mcmvk_v">
       <property name="$shortcutReference" value="true" />
-      <property name="bounds" value="0,0,100,119" />
+      <property name="bounds" value="10,10,100,116" />
       <reference referencedUin="cpp:e_class:src:ProjectMFR:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;" />
       <reference referencedUin="cpp:e_class:src:ProjectMFR:std.vector&lt;double,allocator&lt;double&gt; &gt;" />
+      <reference referencedUin="cpp:e_class:src:ProjectMFR:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:ProjectMFR:FuzzyNumber">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="129,1,94,99" />
+      <reference referencedUin="cpp:e_field:src:ProjectMFR:FuzzyNumber.a" />
+      <reference referencedUin="cpp:e_field:src:ProjectMFR:FuzzyNumber.b" />
+      <reference referencedUin="cpp:e_field:src:ProjectMFR:FuzzyNumber.m" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:ProjectMFR:Regression">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="340,20,617,161" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="cpp:e_field:src:ProjectMFR:Regression.x" />
+      <reference referencedUin="cpp:e_field:src:ProjectMFR:Regression.y" />
+      <reference referencedUin="cpp:e_method:src:ProjectMFR:Regression.OpenSampleFile(char*)" />
+      <reference referencedUin="cpp:e_field:src:ProjectMFR:Regression.yp" />
+      <reference referencedUin="cpp:e_method:src:ProjectMFR:Regression.GetDepVector()" />
+      <reference referencedUin="cpp:e_method:src:ProjectMFR:Regression.GetIndepVector()" />
+      <reference referencedUin="cpp:e_method:src:ProjectMFR:Regression.SaveFuzzyVecToFile(char*!::std::vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;&amp;)" />
     </reference>
   </view>
 </nodeSet>

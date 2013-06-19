@@ -20,6 +20,8 @@ __published:	// IDE-managed Components
 	TButton *Button1;
 	TStringGrid *StringGrid2;
 	TStringGrid *StringGrid3;
+	TStringGrid *StringGrid4;
+	TStringGrid *StringGrid5;
 	void __fastcall Button1Click(TObject *Sender);
 private:	// User declarations
 public:		// User declarations

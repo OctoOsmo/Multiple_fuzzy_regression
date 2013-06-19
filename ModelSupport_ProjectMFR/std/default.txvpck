@@ -4,5 +4,263 @@
     <property name="$defaultDiagram" value="true" />
     <property name="$metaclass" value="Package Diagram" />
     <property name="$name" value="default" />
+    <reference referencedUin="cpp:e_class:src:ProjectMFR:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="10,10,759,1242" />
+      <reference referencedUin="cpp:e_field:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;._Myend" />
+      <reference referencedUin="cpp:e_field:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;._Mylast" />
+      <reference referencedUin="cpp:e_field:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;._Myfirst" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;._Xran()" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;._Xlen()" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;._Ufill(::std::vector&lt;double,allocator&lt;double&gt; &gt;*!unsigned int!::std::vector&lt;double,allocator&lt;double&gt; &gt; const &amp;)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;._Insert_n(::std::_Vector_iterator&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;!unsigned int!::std::vector&lt;double,allocator&lt;double&gt; &gt; const &amp;)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;._Ucopy&lt;_Iter&gt;(_Iter!_Iter!::std::vector&lt;double,allocator&lt;double&gt; &gt;*)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;._Tidy()" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;._Destroy(::std::vector&lt;double,allocator&lt;double&gt; &gt;*!::std::vector&lt;double,allocator&lt;double&gt; &gt;*)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;._Buy(unsigned int)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;._Assign_n(unsigned int!::std::vector&lt;double,allocator&lt;double&gt; &gt; const &amp;)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;.swap(::std::vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;&amp;)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;.clear()" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;.erase(::std::_Vector_iterator&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;!::std::_Vector_iterator&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;.erase(::std::_Vector_iterator&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;._Reverse(::std::vector&lt;double,allocator&lt;double&gt; &gt;*!::std::vector&lt;double,allocator&lt;double&gt; &gt;*)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;._Insert&lt;_Iter&gt;(::std::_Vector_iterator&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;!_Iter!_Iter!::std::forward_iterator_tag)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;._Insert&lt;_Iter&gt;(::std::_Vector_iterator&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;!_Iter!_Iter!::std::input_iterator_tag)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;._Insert&lt;_Iter&gt;(::std::_Vector_iterator&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;!_Iter!_Iter!::std::_Int_iterator_tag)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;.insert&lt;_Iter&gt;(::std::_Vector_iterator&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;!_Iter!_Iter)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;.insert(::std::_Vector_iterator&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;!unsigned int!::std::vector&lt;double,allocator&lt;double&gt; &gt; const &amp;)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;.insert(::std::_Vector_iterator&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;!::std::vector&lt;double,allocator&lt;double&gt; &gt; const &amp;)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;.assign(unsigned int!::std::vector&lt;double,allocator&lt;double&gt; &gt; const &amp;)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;._Assign&lt;_Iter&gt;(_Iter!_Iter!::std::input_iterator_tag)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;._Assign&lt;_Iter&gt;(_Iter!_Iter!::std::_Int_iterator_tag)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;.assign&lt;_Iter&gt;(_Iter!_Iter)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;.pop_back()" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;.push_back(::std::vector&lt;double,allocator&lt;double&gt; &gt; const &amp;)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;.back()" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;.front()" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;.operator [](unsigned int)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;.at(unsigned int)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;.get_allocator()" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;.empty()" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;.max_size()" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;.size()" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;.resize(unsigned int!::std::vector&lt;double,allocator&lt;double&gt; &gt;)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;.resize(unsigned int)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;.rend()" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;.rbegin()" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;.end()" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;.begin()" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;.capacity()" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;.reserve(unsigned int)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;.operator =(::std::vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt; const &amp;)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;.~vector()" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;._Construct_n(unsigned int!::std::vector&lt;double,allocator&lt;double&gt; &gt; const &amp;)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;._Construct&lt;_Iter&gt;(_Iter!_Iter!::std::input_iterator_tag)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;._Construct&lt;_Iter&gt;(_Iter!_Iter!::std::_Int_iterator_tag)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;.vector(_Iter!_Iter!::std::allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; const &amp;)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;.vector(_Iter!_Iter)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;.vector(::std::vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt; const &amp;)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;.vector(unsigned int!::std::vector&lt;double,allocator&lt;double&gt; &gt; const &amp;!::std::allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; const &amp;)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;.vector(unsigned int!::std::vector&lt;double,allocator&lt;double&gt; &gt; const &amp;)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;.vector(unsigned int)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;.vector(::std::allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; const &amp;)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;.vector()" />
+      <reference referencedUin="cpp:e_class:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;.const_reverse_iterator" />
+      <reference referencedUin="cpp:e_class:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;.reverse_iterator" />
+      <reference referencedUin="cpp:e_class:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;.const_iterator" />
+      <reference referencedUin="cpp:e_class:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;.iterator" />
+      <reference referencedUin="cpp:e_class:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;.value_type" />
+      <reference referencedUin="cpp:e_class:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;.const_reference" />
+      <reference referencedUin="cpp:e_class:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;.reference" />
+      <reference referencedUin="cpp:e_class:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;._Reft" />
+      <reference referencedUin="cpp:e_class:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;.const_pointer" />
+      <reference referencedUin="cpp:e_class:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;.pointer" />
+      <reference referencedUin="cpp:e_class:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;._Ctptr" />
+      <reference referencedUin="cpp:e_class:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;._Tptr" />
+      <reference referencedUin="cpp:e_class:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;.difference_type" />
+      <reference referencedUin="cpp:e_class:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;._Dift" />
+      <reference referencedUin="cpp:e_class:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;.size_type" />
+      <reference referencedUin="cpp:e_class:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;.allocator_type" />
+      <reference referencedUin="cpp:e_class:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;._Alloc" />
+      <reference referencedUin="cpp:e_class:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;._Mybase" />
+      <reference referencedUin="cpp:e_class:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;._Myt" />
+      <reference referencedUin="cpp:l_ast:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;._Myend">
+        <property name="sourceAnchor" value="769,625" />
+        <property name="targetAnchor" value="788,625" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="cpp:l_ast:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;._Mylast">
+        <property name="sourceAnchor" value="769,617" />
+        <property name="targetAnchor" value="788,617" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="cpp:l_ast:lib:ProjectMFR__include_dinkumware:std.vector&lt;vector&lt;double,allocator&lt;double&gt; &gt;,allocator&lt;vector&lt;double,allocator&lt;double&gt; &gt; &gt; &gt;._Myfirst">
+        <property name="sourceAnchor" value="769,609" />
+        <property name="targetAnchor" value="788,609" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="cpp:e_class:src:ProjectMFR:std.vector&lt;double,allocator&lt;double&gt; &gt;">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="788,1,449,1242" />
+      <reference referencedUin="cpp:e_field:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;._Myend" />
+      <reference referencedUin="cpp:e_field:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;._Mylast" />
+      <reference referencedUin="cpp:e_field:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;._Myfirst" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;._Xran()" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;._Xlen()" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;._Ufill(double*!unsigned int!double const &amp;)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;._Insert_n(::std::_Vector_iterator&lt;double,allocator&lt;double&gt; &gt;!unsigned int!double const &amp;)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;._Ucopy&lt;_Iter&gt;(_Iter!_Iter!double*)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;._Tidy()" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;._Destroy(double*!double*)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;._Buy(unsigned int)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;._Assign_n(unsigned int!double const &amp;)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;.swap(::std::vector&lt;double,allocator&lt;double&gt; &gt;&amp;)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;.clear()" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;.erase(::std::_Vector_iterator&lt;double,allocator&lt;double&gt; &gt;!::std::_Vector_iterator&lt;double,allocator&lt;double&gt; &gt;)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;.erase(::std::_Vector_iterator&lt;double,allocator&lt;double&gt; &gt;)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;._Reverse(double*!double*)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;._Insert&lt;_Iter&gt;(::std::_Vector_iterator&lt;double,allocator&lt;double&gt; &gt;!_Iter!_Iter!::std::forward_iterator_tag)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;._Insert&lt;_Iter&gt;(::std::_Vector_iterator&lt;double,allocator&lt;double&gt; &gt;!_Iter!_Iter!::std::input_iterator_tag)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;._Insert&lt;_Iter&gt;(::std::_Vector_iterator&lt;double,allocator&lt;double&gt; &gt;!_Iter!_Iter!::std::_Int_iterator_tag)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;.insert&lt;_Iter&gt;(::std::_Vector_iterator&lt;double,allocator&lt;double&gt; &gt;!_Iter!_Iter)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;.insert(::std::_Vector_iterator&lt;double,allocator&lt;double&gt; &gt;!unsigned int!double const &amp;)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;.insert(::std::_Vector_iterator&lt;double,allocator&lt;double&gt; &gt;!double const &amp;)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;.assign(unsigned int!double const &amp;)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;._Assign&lt;_Iter&gt;(_Iter!_Iter!::std::input_iterator_tag)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;._Assign&lt;_Iter&gt;(_Iter!_Iter!::std::_Int_iterator_tag)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;.assign&lt;_Iter&gt;(_Iter!_Iter)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;.pop_back()" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;.push_back(double const &amp;)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;.back()" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;.front()" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;.operator [](unsigned int)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;.at(unsigned int)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;.get_allocator()" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;.empty()" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;.max_size()" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;.size()" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;.resize(unsigned int!double)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;.resize(unsigned int)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;.rend()" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;.rbegin()" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;.end()" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;.begin()" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;.capacity()" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;.reserve(unsigned int)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;.operator =(::std::vector&lt;double,allocator&lt;double&gt; &gt; const &amp;)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;.~vector()" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;._Construct_n(unsigned int!double const &amp;)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;._Construct&lt;_Iter&gt;(_Iter!_Iter!::std::input_iterator_tag)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;._Construct&lt;_Iter&gt;(_Iter!_Iter!::std::_Int_iterator_tag)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;.vector(_Iter!_Iter!::std::allocator&lt;double&gt; const &amp;)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;.vector(_Iter!_Iter)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;.vector(::std::vector&lt;double,allocator&lt;double&gt; &gt; const &amp;)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;.vector(unsigned int!double const &amp;!::std::allocator&lt;double&gt; const &amp;)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;.vector(unsigned int!double const &amp;)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;.vector(unsigned int)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;.vector(::std::allocator&lt;double&gt; const &amp;)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;.vector()" />
+      <reference referencedUin="cpp:e_class:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;.const_reverse_iterator" />
+      <reference referencedUin="cpp:e_class:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;.reverse_iterator" />
+      <reference referencedUin="cpp:e_class:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;.const_iterator" />
+      <reference referencedUin="cpp:e_class:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;.iterator" />
+      <reference referencedUin="cpp:e_class:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;.value_type" />
+      <reference referencedUin="cpp:e_class:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;.const_reference" />
+      <reference referencedUin="cpp:e_class:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;.reference" />
+      <reference referencedUin="cpp:e_class:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;._Reft" />
+      <reference referencedUin="cpp:e_class:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;.const_pointer" />
+      <reference referencedUin="cpp:e_class:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;.pointer" />
+      <reference referencedUin="cpp:e_class:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;._Ctptr" />
+      <reference referencedUin="cpp:e_class:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;._Tptr" />
+      <reference referencedUin="cpp:e_class:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;.difference_type" />
+      <reference referencedUin="cpp:e_class:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;._Dift" />
+      <reference referencedUin="cpp:e_class:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;.size_type" />
+      <reference referencedUin="cpp:e_class:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;.allocator_type" />
+      <reference referencedUin="cpp:e_class:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;._Alloc" />
+      <reference referencedUin="cpp:e_class:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;._Mybase" />
+      <reference referencedUin="cpp:e_class:lib:ProjectMFR__include_dinkumware:std.vector&lt;double,allocator&lt;double&gt; &gt;._Myt" />
+    </reference>
+    <reference referencedUin="cpp:e_class:src:ProjectMFR:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="788,1262,529,1242" />
+      <reference referencedUin="cpp:e_field:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;._Myend" />
+      <reference referencedUin="cpp:e_field:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;._Myfirst" />
+      <reference referencedUin="cpp:e_field:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;._Mylast" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;._Assign_n(unsigned int!FuzzyNumber const &amp;)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;._Buy(unsigned int)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;._Construct_n(unsigned int!FuzzyNumber const &amp;)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;._Destroy(FuzzyNumber*!FuzzyNumber*)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;._Reverse(FuzzyNumber*!FuzzyNumber*)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;._Tidy()" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;._Ucopy&lt;_Iter&gt;(_Iter!_Iter!FuzzyNumber*)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;._Ufill(FuzzyNumber*!unsigned int!FuzzyNumber const &amp;)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;._Xlen()" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;._Xran()" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;.~vector()" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;.assign(unsigned int!FuzzyNumber const &amp;)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;.assign&lt;_Iter&gt;(_Iter!_Iter)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;.at(unsigned int)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;.back()" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;.begin()" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;.capacity()" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;.clear()" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;.empty()" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;.end()" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;.front()" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;.get_allocator()" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;.max_size()" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;.operator [](unsigned int)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;.pop_back()" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;.push_back(FuzzyNumber const &amp;)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;.rbegin()" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;.rend()" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;.reserve(unsigned int)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;.resize(unsigned int!FuzzyNumber)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;.resize(unsigned int)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;.size()" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;.vector()" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;.vector(_Iter!_Iter)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;.vector(unsigned int!FuzzyNumber const &amp;)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;.vector(unsigned int)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;._Insert_n(::std::_Vector_iterator&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;!unsigned int!FuzzyNumber const &amp;)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;.swap(::std::vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;&amp;)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;.erase(::std::_Vector_iterator&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;!::std::_Vector_iterator&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;.erase(::std::_Vector_iterator&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;._Insert&lt;_Iter&gt;(::std::_Vector_iterator&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;!_Iter!_Iter!::std::forward_iterator_tag)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;._Insert&lt;_Iter&gt;(::std::_Vector_iterator&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;!_Iter!_Iter!::std::input_iterator_tag)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;._Insert&lt;_Iter&gt;(::std::_Vector_iterator&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;!_Iter!_Iter!::std::_Int_iterator_tag)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;.insert&lt;_Iter&gt;(::std::_Vector_iterator&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;!_Iter!_Iter)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;.insert(::std::_Vector_iterator&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;!unsigned int!FuzzyNumber const &amp;)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;.insert(::std::_Vector_iterator&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;!FuzzyNumber const &amp;)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;._Assign&lt;_Iter&gt;(_Iter!_Iter!::std::input_iterator_tag)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;._Assign&lt;_Iter&gt;(_Iter!_Iter!::std::_Int_iterator_tag)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;.operator =(::std::vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt; const &amp;)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;._Construct&lt;_Iter&gt;(_Iter!_Iter!::std::input_iterator_tag)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;._Construct&lt;_Iter&gt;(_Iter!_Iter!::std::_Int_iterator_tag)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;.vector(_Iter!_Iter!::std::allocator&lt;FuzzyNumber&gt; const &amp;)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;.vector(::std::vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt; const &amp;)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;.vector(unsigned int!FuzzyNumber const &amp;!::std::allocator&lt;FuzzyNumber&gt; const &amp;)" />
+      <reference referencedUin="cpp:e_method:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;.vector(::std::allocator&lt;FuzzyNumber&gt; const &amp;)" />
+      <reference referencedUin="cpp:e_class:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;.const_reverse_iterator" />
+      <reference referencedUin="cpp:e_class:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;.reverse_iterator" />
+      <reference referencedUin="cpp:e_class:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;.const_iterator" />
+      <reference referencedUin="cpp:e_class:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;.iterator" />
+      <reference referencedUin="cpp:e_class:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;.value_type" />
+      <reference referencedUin="cpp:e_class:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;.const_reference" />
+      <reference referencedUin="cpp:e_class:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;.reference" />
+      <reference referencedUin="cpp:e_class:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;._Reft" />
+      <reference referencedUin="cpp:e_class:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;.const_pointer" />
+      <reference referencedUin="cpp:e_class:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;.pointer" />
+      <reference referencedUin="cpp:e_class:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;._Ctptr" />
+      <reference referencedUin="cpp:e_class:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;._Tptr" />
+      <reference referencedUin="cpp:e_class:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;.difference_type" />
+      <reference referencedUin="cpp:e_class:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;._Dift" />
+      <reference referencedUin="cpp:e_class:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;.size_type" />
+      <reference referencedUin="cpp:e_class:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;.allocator_type" />
+      <reference referencedUin="cpp:e_class:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;._Alloc" />
+      <reference referencedUin="cpp:e_class:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;._Mybase" />
+      <reference referencedUin="cpp:e_class:lib:ProjectMFR__include_dinkumware:std.vector&lt;FuzzyNumber,allocator&lt;FuzzyNumber&gt; &gt;._Myt" />
+    </reference>
   </view>
 </nodeSet>
