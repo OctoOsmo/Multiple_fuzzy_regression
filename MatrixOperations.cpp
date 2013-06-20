@@ -36,18 +36,18 @@ int MatrixOperations::GaussJordan(std::vector<std::vector<double> > &x,
 		return 0;
 	int size = x.size();
 	// make upper triangular matrix
-	// int m; // current first row
+	int m = 0; // current first row
 	for (int m = 0; m < size; ++m) {
 		for (int i = size - 1; i >= m; --i) // first row
 		{
 			x[m][i] /= x[m][m];
-			e[m][i] /= e[m][m];
+			e[m][i] /= x[m][m];
 		}
 		for (int i = size - 1; i > m; --i) // rows
 			for (int j = size - 1; j >= m; --j) // columns
 			{
 				x[i][j] -= x[i][m] * x[m][j];
-				e[i][j] -= e[i][m] * e[m][j];
+				e[i][j] -= x[i][m] * x[m][j];
 			}
 	}
 	// last step
@@ -57,18 +57,102 @@ int MatrixOperations::GaussJordan(std::vector<std::vector<double> > &x,
 			double ke = e[i][m];
 			for (int j = m; j >= 0; --j) {
 				x[i][j] -= k * x[m][j];
-				e[i][j] -= ke * e[m][j];
+				e[i][j] -= k * x[m][j];
 			}
 		}
 	}
 	return 1;
 }
 
+double MatrixOperations::det(std::vector<std::vector<double> > &x)
+	// calculate determinant of matrix
+{
+	int size = x.size();
+	if (size == 0)
+		return 0;
+	if (size != (int)x[0].size())
+		return 0;
+	if (size == 1)
+		return x[0][0];
+	double d = 0;
+	// int sign;
+	std::vector<std::vector<double> >xcross;
+	for (int i = 0; i < size; ++i) {
+		// xcross.clear();
+		// xcross.resize(size - 1);
+		// for (int j = 1; j < size; ++j)
+		// for (int k = 0; k < size; ++k) {
+		// if (k != i)
+		// xcross[j - 1].push_back(x[j][k]);
+		// }
+		xcross = Cross(x, 0, i);
+		if (i % 2 == 0)
+			// sign = 1;
+				d += x[0][i] * det(xcross);
+		else
+			// sign = -1;
+				d -= x[0][i] * det(xcross);
+
+		// d += sign * x[0][i] * d * det(xcross);
+	}
+	return d;
+}
+
+std::vector<std::vector<double> >MatrixOperations::CreateAdjMatrix
+	(std::vector<std::vector<double> > &x) // Adjugate matrix
+{
+	int size = x.size();
+	std::vector<std::vector<double> >Adj;
+	std::vector<std::vector<double> >xcross;
+	Adj.resize(size);
+	for (int i = 0; i < size; ++i)
+		for (int j = 0; j < size; ++j) {
+			if ((i + j + 2) % 2) {
+				xcross = Cross(x, i, j);
+				Adj[i].push_back(-det(xcross));
+			}
+			else {
+				xcross = Cross(x, i, j);
+				Adj[i].push_back(det(xcross));
+			}
+		}
+	return Adj;
+}
+
+std::vector<std::vector<double> >MatrixOperations::Reverse
+	(std::vector<std::vector<double> > &x) // Reverse matrix x^-1
+{
+	double d = det(x);
+	std::vector<std::vector<double> >rev;
+	rev = CreateAdjMatrix(x);
+	rev = Transp(rev);
+	for (unsigned int i = 0; i < rev.size(); ++i)
+		for (unsigned int j = 0; j < rev[i].size(); ++j)
+			rev[i][j] /= d;
+	return rev;
+}
+
+std::vector<std::vector<double> >MatrixOperations::Cross
+	(std::vector<std::vector<double> > &x, int a, int b) {
+	std::vector<std::vector<double> >cross;
+	int size = x.size();
+	cross.resize(size - 1);
+	int k = 0;
+	for (int i = 0; i < size; ++i)
+		if (i != a) {
+			for (int j = 0; j < size; ++j)
+				if (j != b)
+					cross[k].push_back(x[i][j]);
+			++k;
+		}
+	return cross;
+}
+
 int MatrixOperations::OpenMatrix(char *file_name,
-	std::vector<std::vector<double> > &x) {
+	std::vector<std::vector<double> >&x) {
 	FILE *in;
 	if ((in = fopen(file_name, "r")) == NULL) {
-		fprintf(stderr, "Cannot open weights file.\n");
+		fprintf(stderr, "Cannot open file.\n");
 		return 0;
 	}
 	int size;
@@ -84,24 +168,24 @@ int MatrixOperations::OpenMatrix(char *file_name,
 	return 1;
 }
 
-int MatrixOperations::PrintMatrix(std::vector<std::vector<double> > &x,
-	TStringGrid *SG) {
+int MatrixOperations::PrintMatrix(std::vector<std::vector<double> >&x,
+	TStringGrid * SG) {
 	int sizex = x.size();
 	if (sizex == 0)
 		return 0;
 	int sizey = x[0].size();
 	if (sizey == 0)
 		return 0;
-	int cell_size = 30;
+	int cell_size = 35;
 	SG->DefaultColWidth = cell_size;
 	SG->DefaultRowHeight = cell_size;
 	SG->ColCount = sizey;
 	SG->RowCount = sizex;
-	SG->Width = (cell_size + 2) * sizey;
-	SG->Height = (cell_size + 2) * sizex;
+	SG->Width = (cell_size + 1) * sizey + 3;
+	SG->Height = (cell_size + 1) * sizex + 3;
 	for (int i = 0; i < sizex; ++i)
 		for (int j = 0; j < sizey; ++j)
-			SG->Cells[j][i] = x[i][j];
+			SG->Cells[j][i] = round10(x[i][j]);
 	return 1;
 }
 
@@ -119,12 +203,12 @@ std::vector<std::vector<double> >MatrixOperations::CreateIdentityMatrix
 std::vector<std::vector<double> >MatrixOperations::MatrixMultiplication
 	(std::vector<std::vector<double> >&a, std::vector<std::vector<double> >&b) {
 	std::vector<std::vector<double> >mul;
-	mul.resize(1);
-	mul[0].resize(1, 0);
-	if ((a.size() == 0) || (b.size() == 0) || (a[0].size() == 0) ||
-		(a.size() != b[0].size()))
-		return mul;
-	mul.clear();
+	// mul.resize(1);
+	// mul[0].resize(1, 0);
+	// if ((a.size() == 0) || (b.size() == 0) || (a[0].size() == 0) ||
+	// (a.size() != b[0].size()))
+	// return mul;
+	// mul.clear();
 	int m = a.size();
 	int n = a[0].size();
 	int k = b[0].size();
@@ -135,7 +219,7 @@ std::vector<std::vector<double> >MatrixOperations::MatrixMultiplication
 		for (int j = 0; j < k; ++j) {
 			// tmp.push_back(RowXCol(a[i], b[j]));
 			rxc = 0;
-			for (int p = 0; p < k; ++p) {
+			for (int p = 0; p < n; ++p) {
 				rxc += a[i][p] * b[p][j];
 			}
 			tmp.push_back(rxc);
@@ -152,10 +236,9 @@ std::vector<std::vector<double> >MatrixOperations::MatrixMultiplication
 	return mul;
 }
 
-double MatrixOperations::RowXCol(std::vector<double> &a, std::vector<double> &b)
-{
+double MatrixOperations::RowXCol(std::vector<double>&a, std::vector<double>&b) {
 	int size = a.size();
-	if (b.size() != size)
+	if ((int)b.size() != size)
 		return 0;
 	double sum = 0;
 	for (int i = 0; i < size; ++i)
@@ -163,19 +246,14 @@ double MatrixOperations::RowXCol(std::vector<double> &a, std::vector<double> &b)
 	return sum;
 }
 
-int MatrixOperations::Transp(std::vector<std::vector<double> > &x) {
-	int size = x.size();
-	if ((size == 0) || (size != x[0].size())) {
-		return 0;
-	}
-	double tmp;
-	for (int i = 0; i < size; ++i)
-		for (int j = 0; j < i; ++j) {
-			// if (i != j) {
-			tmp = x[i][j];
-			x[i][j] = x[j][i];
-			x[j][i] = tmp;
-		}
-	// }
-	return 1;
+std::vector<std::vector<double> >MatrixOperations::Transp
+	(std::vector<std::vector<double> >&x) {
+	int rowx = x.size();
+	int colx = x[0].size();
+	std::vector<std::vector<double> >t;
+	t.resize(colx);
+	for (int i = 0; i < colx; ++i)
+		for (int j = 0; j < rowx; ++j)
+			t[i].push_back(x[j][i]);
+	return t;
 }

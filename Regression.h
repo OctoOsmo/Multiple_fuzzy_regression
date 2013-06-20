@@ -31,5 +31,13 @@ public:
 	{
 		return y;
 	}
+
+	std::vector<std::vector<double> >GetDepm() {
+		std::vector<std::vector<double> >m;
+		m.resize(1);
+		for (unsigned int i = 0; i < y.size(); ++i)
+			m[0].push_back(y[i].m);
+		return m;
+	}
 };
 #endif

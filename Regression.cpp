@@ -21,7 +21,7 @@ int Regression::OpenSampleFile(char* file_name) {
 	std::vector<double>tmpv;
 	while (fscanf(in, "%lf", &tmpx) != EOF) {
 		// read initial sample independent variables
-		tmpv.push_back(1); 
+		tmpv.push_back(1);
 		tmpv.push_back(tmpx);
 		for (int i = 1; i < size; ++i) {
 			fscanf(in, "%lf", &tmpx);
