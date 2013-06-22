@@ -8,6 +8,7 @@
 #include <Vcl.StdCtrls.hpp>
 #include <Vcl.Forms.hpp>
 #include <Vcl.Grids.hpp>
+#include <Vcl.ExtCtrls.hpp>
 #include <vector>
 #include <stdio.h>
 #include <stdlib.h>
@@ -24,7 +25,11 @@ __published:	// IDE-managed Components
 	TStringGrid *StringGrid5;
 	TStringGrid *StringGrid6;
 	TStringGrid *StringGrid7;
+	TImage *ImageGraph;
+	TButton *ButtonGraph;
+	TButton *Draw;
 	void __fastcall Button1Click(TObject *Sender);
+	void __fastcall ButtonGraphClick(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
 	__fastcall TForm1(TComponent* Owner);
