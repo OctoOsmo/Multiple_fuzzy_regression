@@ -1,30 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.860,=C:\Users\al\Documents\GitHub\Multiple_fuzzy_regression\Unit1.cpp</Transaction>
     <Transaction>1899.12.30 00:00:00.000.563,C:\Users\al\Documents\GitHub\Multiple_fuzzy_regression\Unit1.cpp=C:\Users\al\Documents\GitHub\Multiple_fuzzy_regression\FuzzyNumber.cpp</Transaction>
     <Transaction>1899.12.30 00:00:00.000.305,=C:\Users\al\Documents\RAD Studio\Projects\Project1PCH1.h</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.552,C:\Users\al\Documents\RAD Studio\Projects\Project1PCH1.h=C:\Users\al\Documents\GitHub\Multiple fuzzy regression\MFR.h</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.032,=C:\Users\al\Documents\GitHub\Multiple_fuzzy_regression\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.300,=C:\Users\al\Documents\GitHub\Multiple_fuzzy_regression\Unit1.cpp</Transaction>
     <Transaction>1899.12.30 00:00:00.000.281,C:\Users\al\Documents\GitHub\Multiple_fuzzy_regression\Unit1.cpp=C:\Users\al\Documents\GitHub\Multiple_fuzzy_regression\Regression.cpp</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.860,=C:\Users\al\Documents\GitHub\Multiple_fuzzy_regression\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.032,=C:\Users\al\Documents\GitHub\Multiple_fuzzy_regression\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.552,C:\Users\al\Documents\RAD Studio\Projects\Project1PCH1.h=C:\Users\al\Documents\GitHub\Multiple fuzzy regression\MFR.h</Transaction>
     <Transaction>1899.12.30 00:00:00.000.563,C:\Users\al\Documents\GitHub\Multiple_fuzzy_regression\Unit1.h=C:\Users\al\Documents\GitHub\Multiple_fuzzy_regression\FuzzyNumber.h</Transaction>
     <Transaction>1899.12.30 00:00:00.000.195,c:\users\al\documents\github\multiple fuzzy regression\modelsupport_projectmfr\activity diagram1.txvact=</Transaction>
     <Transaction>1899.12.30 00:00:00.000.654,=C:\Users\al\Documents\GitHub\Multiple fuzzy regression\ModelSupport_ProjectMFR\Activity Diagram1.txvact</Transaction>
     <Transaction>1899.12.30 00:00:00.000.303,=C:\Users\al\Documents\GitHub\Multiple fuzzy regression\ModelSupport_ProjectMFR\default.txaPackage</Transaction>
     <Transaction>1899.12.30 00:00:00.000.170,=C:\Users\al\Documents\GitHub\Multiple fuzzy regression\ModelSupport_ProjectMFR\std\default.txaPackage</Transaction>
     <Transaction>1899.12.30 00:00:00.000.281,C:\Users\al\Documents\GitHub\Multiple_fuzzy_regression\Unit1.h=C:\Users\al\Documents\GitHub\Multiple_fuzzy_regression\Regression.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.065,C:\Users\al\Documents\GitHub\Multiple_fuzzy_regression\DrawRegression.cpp=C:\Users\al\Documents\GitHub\Multiple_fuzzy_regression\Unit1.cpp</Transaction>
     <Transaction>1899.12.30 00:00:00.000.959,=C:\Users\al\Documents\GitHub\Multiple fuzzy regression\ModelSupport_ProjectMFR\std\default.txvpck</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.826,=C:\Users\al\Documents\GitHub\Multiple fuzzy regression\ModelSupport_ProjectMFR\default.txvpck</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.385,C:\Users\al\Documents\RAD Studio\Projects\Unit1.h=C:\Users\al\Documents\GitHub\Multiple fuzzy regression\MainUnit.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.699,c:\users\al\documents\github\multiple fuzzy regression\class1.cpp=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.525,=C:\Users\al\Documents\GitHub\Multiple fuzzy regression\Class1.cpp</Transaction>
     <Transaction>1899.12.30 00:00:00.000.583,C:\Users\al\Documents\GitHub\Multiple fuzzy regression\Unit1.h=C:\Users\al\Documents\GitHub\Multiple fuzzy regression\MatrixOperations.h</Transaction>
     <Transaction>1899.12.30 00:00:00.000.385,C:\Users\al\Documents\RAD Studio\Projects\Unit1.cpp=C:\Users\al\Documents\GitHub\Multiple fuzzy regression\MainUnit.cpp</Transaction>
     <Transaction>1899.12.30 00:00:00.000.329,=C:\Users\al\Documents\RAD Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.826,=C:\Users\al\Documents\GitHub\Multiple fuzzy regression\ModelSupport_ProjectMFR\default.txvpck</Transaction>
     <Transaction>1899.12.30 00:00:00.000.583,C:\Users\al\Documents\GitHub\Multiple fuzzy regression\Unit1.cpp=C:\Users\al\Documents\GitHub\Multiple fuzzy regression\MatrixOperations.cpp</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.667,=C:\Users\al\Documents\GitHub\Multiple fuzzy regression\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.065,C:\Users\al\Documents\GitHub\Multiple_fuzzy_regression\DrawRegression.h=C:\Users\al\Documents\GitHub\Multiple_fuzzy_regression\Unit1.h</Transaction>
     <Transaction>1899.12.30 00:00:00.000.385,C:\Users\al\Documents\RAD Studio\Projects\Unit1.dfm=C:\Users\al\Documents\GitHub\Multiple fuzzy regression\MainUnit.dfm</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.699,c:\users\al\documents\github\multiple fuzzy regression\class1.cpp=</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.525,=C:\Users\al\Documents\GitHub\Multiple fuzzy regression\Class1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.385,C:\Users\al\Documents\RAD Studio\Projects\Unit1.h=C:\Users\al\Documents\GitHub\Multiple fuzzy regression\MainUnit.h</Transaction>
     <Transaction>1899.12.30 00:00:00.000.606,C:\Users\al\Documents\RAD Studio\Projects\Project1.cbproj=C:\Users\al\Documents\GitHub\Multiple fuzzy regression\ProjectMFR.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.667,=C:\Users\al\Documents\GitHub\Multiple fuzzy regression\Unit1.cpp</Transaction>
   </Transactions>
 	<ProjectSortOrder AutoSort="0" SortType="0">
     <File Path="ModelSupport_ProjectMFR"/>
@@ -48,5 +51,8 @@
     <File Path="FuzzyNumber.cpp"/>
     <File Path="FuzzyNumber.cpp"/>
     <File Path="FuzzyNumber.h"/>
+    <File Path="DrawRegression.cpp"/>
+    <File Path="DrawRegression.cpp"/>
+    <File Path="DrawRegression.h"/>
   </ProjectSortOrder>
 </BorlandProject>

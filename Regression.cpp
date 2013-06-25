@@ -69,3 +69,42 @@ int Regression::SaveFuzzyVecToFile(char* file_name)
 	fclose(out);
 	return 1;
 }
+
+FuzzyNumber Regression::GetModelValue(double x) {
+	FuzzyNumber ret;
+	ret.m = x / 2.1 + 3;
+	ret.a = ret.b = ret.m / 16;
+	return ret;
+}
+
+int Regression::CreateRegressionMatrix() {
+	// calculating matrix
+	xt = MatrixOperations::Transp(x);
+	xtx = MatrixOperations::MatrixMultiplication(xt, x);
+	rxtx = MatrixOperations::Reverse(xtx);
+	reg = MatrixOperations::MatrixMultiplication(rxtx, xt);
+	// calculating regression coefficients
+	m = GetDepm();
+	m = MatrixOperations::Transp(m);
+	a = GetDepa();
+	a = MatrixOperations::Transp(a);
+	b = GetDepb();
+	b = MatrixOperations::Transp(b);
+	m = MatrixOperations::MatrixMultiplication(reg, m);
+	a = MatrixOperations::MatrixMultiplication(reg, a);
+	b = MatrixOperations::MatrixMultiplication(reg, b);
+	coef.resize(m.size());
+	for (unsigned int i = 0; i < m.size(); ++i) {
+		coef[i].m = m[i][0];
+		coef[i].a = a[i][0];
+		coef[i].b = b[i][0];
+	}
+	// coef[0]=coef[0]+coef[0];
+	// coef[0] = 4 * coef[0];
+	// calculating regression result
+	yp.resize(y.size());
+	for (unsigned int i = 0; i < y.size(); i++)
+		for (unsigned int j = 0; j < x[i].size(); j++)
+			yp[i] = yp[i] + coef[j] * x[i][j];
+	return 1;
+}

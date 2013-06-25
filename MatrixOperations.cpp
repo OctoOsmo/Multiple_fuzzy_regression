@@ -168,25 +168,48 @@ int MatrixOperations::OpenMatrix(char *file_name,
 	return 1;
 }
 
-int MatrixOperations::PrintMatrix(std::vector<std::vector<double> >&x,
-	TStringGrid * SG) {
+int MatrixOperations::PrintMatrix(std::vector<std::vector<double> >x,
+	TStringGrid* SG) {
 	int sizex = x.size();
 	if (sizex == 0)
 		return 0;
 	int sizey = x[0].size();
 	if (sizey == 0)
 		return 0;
-	int cell_size = 35;
+	int cell_size = 45;
 	SG->DefaultColWidth = cell_size;
 	SG->DefaultRowHeight = cell_size;
 	SG->ColCount = sizey;
 	SG->RowCount = sizex;
 	SG->Width = (cell_size + 1) * sizey + 3;
 	SG->Height = (cell_size + 1) * sizex + 3;
+	if (sizex == 1)
+		SG->Height = 70;
+	if (sizey == 1)
+		SG->Width = 70;
 	for (int i = 0; i < sizex; ++i)
 		for (int j = 0; j < sizey; ++j)
 			SG->Cells[j][i] = round10(x[i][j]);
 	return 1;
+}
+
+int MatrixOperations::PrintMatrix(std::vector<FuzzyNumber>x, TStringGrid *SG) {
+	int sizex = x.size();
+	if (sizex == 0)
+		return 0;
+	int sizey = 3;
+	int cell_size = 45;
+	SG->DefaultColWidth = cell_size;
+	SG->DefaultRowHeight = cell_size;
+	SG->ColCount = sizey;
+	SG->RowCount = sizex;
+	SG->Width = (cell_size + 1) * sizey + 3;
+	SG->Height = (cell_size + 1) * sizex + 3;
+	for (int i = 0; i < sizex; ++i) {
+		SG->Cells[0][i] = round10(x[i].m);
+		SG->Cells[1][i] = round10(x[i].a);
+		SG->Cells[2][i] = round10(x[i].b);
+	}
 }
 
 std::vector<std::vector<double> >MatrixOperations::CreateIdentityMatrix
@@ -256,4 +279,14 @@ std::vector<std::vector<double> >MatrixOperations::Transp
 		for (int j = 0; j < rowx; ++j)
 			t[i].push_back(x[j][i]);
 	return t;
+}
+
+std::vector<std::vector<double> >MatrixOperations::Round
+	(std::vector<std::vector<double> >&x) {
+	std::vector<std::vector<double> >out;
+	out.resize(x.size());
+	for (unsigned int i = 0; i < x.size(); ++i)
+		for (unsigned int j = 0; j < x[i].size(); ++j)
+			out[i].push_back(round(x[i][j]));
+	return out;
 }

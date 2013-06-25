@@ -3,26 +3,27 @@ object Form1: TForm1
   Top = 156
   Caption = 'Form1'
   ClientHeight = 551
-  ClientWidth = 903
+  ClientWidth = 924
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
   Font.Name = 'Tahoma'
   Font.Style = []
+  Menu = MainMenu1
   OldCreateOrder = False
   Position = poDesigned
   PixelsPerInch = 96
   TextHeight = 13
   object ImageGraph: TImage
-    Left = 384
+    Left = 426
     Top = 39
-    Width = 500
-    Height = 500
+    Width = 458
+    Height = 466
   end
-  object StringGrid1: TStringGrid
-    Left = 8
-    Top = 40
+  object SGX: TStringGrid
+    Left = 16
+    Top = 72
     Width = 137
     Height = 137
     DefaultColWidth = 24
@@ -39,9 +40,9 @@ object Form1: TForm1
     TabOrder = 1
     OnClick = Button1Click
   end
-  object StringGrid2: TStringGrid
-    Left = 74
-    Top = 103
+  object SGXTX: TStringGrid
+    Left = 224
+    Top = 72
     Width = 137
     Height = 137
     DefaultColWidth = 24
@@ -49,9 +50,9 @@ object Form1: TForm1
     FixedRows = 0
     TabOrder = 2
   end
-  object StringGrid3: TStringGrid
-    Left = 111
-    Top = 136
+  object SGY: TStringGrid
+    Left = 426
+    Top = 72
     Width = 137
     Height = 137
     DefaultColWidth = 24
@@ -59,9 +60,9 @@ object Form1: TForm1
     FixedRows = 0
     TabOrder = 3
   end
-  object StringGrid4: TStringGrid
-    Left = 40
-    Top = 72
+  object SGRXTX: TStringGrid
+    Left = 16
+    Top = 329
     Width = 137
     Height = 137
     DefaultColWidth = 24
@@ -69,9 +70,9 @@ object Form1: TForm1
     FixedRows = 0
     TabOrder = 4
   end
-  object StringGrid5: TStringGrid
-    Left = 151
-    Top = 168
+  object SGReg: TStringGrid
+    Left = 248
+    Top = 329
     Width = 137
     Height = 137
     DefaultColWidth = 24
@@ -79,9 +80,9 @@ object Form1: TForm1
     FixedRows = 0
     TabOrder = 5
   end
-  object StringGrid6: TStringGrid
-    Left = 183
-    Top = 200
+  object SGYP: TStringGrid
+    Left = 569
+    Top = 72
     Width = 137
     Height = 137
     DefaultColWidth = 24
@@ -90,9 +91,9 @@ object Form1: TForm1
     TabOrder = 6
   end
   object StringGrid7: TStringGrid
-    Left = 217
-    Top = 248
-    Width = 137
+    Left = 651
+    Top = 329
+    Width = 70
     Height = 137
     DefaultColWidth = 24
     FixedCols = 0
@@ -115,5 +116,46 @@ object Form1: TForm1
     Height = 25
     Caption = 'Draw'
     TabOrder = 9
+    OnClick = DrawClick
+  end
+  object StringGrid8: TStringGrid
+    Left = 727
+    Top = 329
+    Width = 70
+    Height = 137
+    DefaultColWidth = 24
+    FixedCols = 0
+    FixedRows = 0
+    TabOrder = 10
+  end
+  object StringGrid9: TStringGrid
+    Left = 803
+    Top = 329
+    Width = 70
+    Height = 137
+    DefaultColWidth = 24
+    FixedCols = 0
+    FixedRows = 0
+    TabOrder = 11
+  end
+  object SGCoef: TStringGrid
+    Left = 739
+    Top = 72
+    Width = 134
+    Height = 137
+    DefaultColWidth = 24
+    FixedCols = 0
+    FixedRows = 0
+    TabOrder = 12
+  end
+  object MainMenu1: TMainMenu
+    Left = 72
+    Top = 16
+    object NFile: TMenuItem
+      Caption = #1060#1072#1081#1083
+      object NQuit: TMenuItem
+        Caption = #1042#1099#1093#1086#1076
+      end
+    end
   end
 end
