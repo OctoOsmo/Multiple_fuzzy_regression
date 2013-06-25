@@ -10,6 +10,9 @@
 #include <Vcl.Grids.hpp>
 #include <Vcl.ExtCtrls.hpp>
 #include <Vcl.Menus.hpp>
+#include <Vcl.ComCtrls.hpp>
+#include <Vcl.DockTabSet.hpp>
+#include <Vcl.Tabs.hpp>
 #include <vector>
 #include <stdio.h>
 #include <stdlib.h>
@@ -18,36 +21,45 @@
 
 
 // ---------------------------------------------------------------------------
-class TForm1 : public TForm {
+class TMainForm : public TForm {
 __published: // IDE-managed Components
-	TStringGrid *SGX;
-	TButton *Button1;
-	TStringGrid *SGXTX;
-	TStringGrid *SGY;
-	TStringGrid *SGRXTX;
-	TStringGrid *SGReg;
-	TStringGrid *SGYP;
-	TStringGrid *StringGrid7;
-	TImage *ImageGraph;
-	TButton *ButtonGraph;
-	TButton *Draw;
-	TStringGrid *StringGrid8;
-	TStringGrid *StringGrid9;
-	TStringGrid *SGCoef;
-	TMainMenu *MainMenu1;
+	TMainMenu *MainMenu;
 	TMenuItem *NFile;
 	TMenuItem *NQuit;
+	TMenuItem *NProrerties;
+	TMenuItem *NHelp;
+	TPageControl *PageControl;
+	TTabSheet *TabSheetRegMatrix;
+	TStringGrid *SGXTX;
+	TTabSheet *TabSheetDiverse;
+	TStringGrid *SGDiverse;
+	TTabSheet *TabSheetGraph;
+	TImage *ImageGraph;
+	TStringGrid *SGRXTX;
+	TStringGrid *SGReg;
+	TStringGrid *SGCoef;
+	TMenuItem *NRegression;
+	TMenuItem *NGraph;
+	TMenuItem *NDepGrad;
+	TStringGrid *SGYP;
+	TStringGrid *SGY;
+	TStringGrid *SGX;
+	TLabel *LabelXTX;
+	TLabel *LabelRXTX;
+	TLabel *LabelCoef;
+	TLabel *LabelReg;
+	void __fastcall NQuitClick(TObject *Sender);
+	void __fastcall NRegressionClick(TObject *Sender);
+	void __fastcall NGraphClick(TObject *Sender);
+	void __fastcall NDepGradClick(TObject *Sender);
 
-	void __fastcall Button1Click(TObject *Sender);
-	void __fastcall ButtonGraphClick(TObject *Sender);
-	void __fastcall DrawClick(TObject *Sender);
 
 private: // User declarations
 		public : // User declarations
-	__fastcall TForm1(TComponent* Owner);
+	__fastcall TMainForm(TComponent* Owner);
 };
 
 // ---------------------------------------------------------------------------
-extern PACKAGE TForm1 *Form1;
+extern PACKAGE TMainForm *MainForm;
 // ---------------------------------------------------------------------------
 #endif

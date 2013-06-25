@@ -106,5 +106,25 @@ int Regression::CreateRegressionMatrix() {
 	for (unsigned int i = 0; i < y.size(); i++)
 		for (unsigned int j = 0; j < x[i].size(); j++)
 			yp[i] = yp[i] + coef[j] * x[i][j];
+	// calculating diverse
+	for (unsigned int i = 0; i < y.size(); i++) {
+		em.push_back(y[i].m - yp[i].m);
+		ea.push_back(y[i].a - yp[i].a);
+		eb.push_back(y[i].b - yp[i].b);
+		sem.push_back(1 - fabs(em[i] / y[i].m));
+		sea.push_back(1 - fabs(ea[i] / y[i].b));
+		seb.push_back(1 - fabs(eb[i] / y[i].b));
+	}
 	return 1;
+}
+
+std::vector<std::vector<double> >Regression::GetDiverse() {
+	std::vector<std::vector<double> >res;
+	res.push_back(em);
+	res.push_back(ea);
+	res.push_back(eb);
+	res.push_back(sem);
+	res.push_back(sea);
+	res.push_back(seb);
+	return MatrixOperations::Transp(res);
 }

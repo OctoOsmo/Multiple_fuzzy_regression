@@ -24,6 +24,12 @@ private:
 	// left parts of reggression coefficients
 	std::vector<std::vector<double> >b;
 	// right parts of reggression coefficients
+	std::vector<double>em; // m diverse
+	std::vector<double>ea; // a diverse
+	std::vector<double>eb; // b diverse
+	std::vector<double>sem; // normalize m diverse
+	std::vector<double>sea; // normalize a diverse
+	std::vector<double>seb; // normalize b diverse
 
 public:
 	//////////////////////////////////////
@@ -34,6 +40,10 @@ public:
 	// @brief create matrix ((xt*x)^-1)*xt
 	// fill xt, xtx, rxtx, reg
 	int CreateRegressionMatrix();
+
+	//////////////////////////////////////
+	// @brief returns diverse vector
+	std::vector<std::vector<double> >GetDiverse();
 
 	//////////////////////////////////////
 	// @brief x getter
